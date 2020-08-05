@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recycler_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="객체지향 프로그래밍"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/recycler_time_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="08:00"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/recycler_time_tilde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="~"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/recycler_time_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="23:59"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/recycler_mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="월"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_tue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="화"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_wed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="수"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_thu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="목"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_fri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="금"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="토"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recycler_sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="일"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/recycler_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:switchMinWidth="50dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
