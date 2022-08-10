@@ -1,5 +1,7 @@
 # 일상생활지킴이(DailyLifeSaver)
-<img src="https://user-images.githubusercontent.com/69233747/89399025-d5a3f580-d74c-11ea-9a84-0ea2d5c91ee7.png" width="100" height="100">일상생활지킴이. 원하는 시간에 스마트폰을 자동으로 무음모드로 전환한다.
+<img src="https://user-images.githubusercontent.com/69233747/89399025-d5a3f580-d74c-11ea-9a84-0ea2d5c91ee7.png" width="100" height="100">
+일상생활지킴이.
+원하는 시간을 스마트폰을 자동으로 무음모드로 전환한다.
 요즘 말로『디지털 웰빙』이라는 단어로 정리 할 수 있다.
 
 # 목적
